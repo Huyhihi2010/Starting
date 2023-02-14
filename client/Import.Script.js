@@ -1,0 +1,1 @@
+("Check_Console",function(){document.addEventListener('keydown',(e)=>{if(e.keyCode===123||e.ctrlKey){e.preventDefault();e.stopPropagation();console.warn("An user cheat console");}})}())

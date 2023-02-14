@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(111, 109, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(91, 89, 214); 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(80, 78, 202); 
+}
+
+.center-nav-button-selector{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(90, 88, 212);
+    text-align: left;
+}
+
+.button-selector{
+    margin-top: 50%;
+    margin-left: 15%;
+    font-size: 30px;
+    user-select: none;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+.button-selector:hover{
+    color: rgb(167, 152, 255);
+    background-color: rgb(111, 109, 230);
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+}

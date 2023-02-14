@@ -1,0 +1,31 @@
+.txt-do{
+    border-radius: 20px;
+    margin-left: 12.5%;
+    background-color: rgb(104, 102, 224);
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 75%;
+    height: 300px;
+}
+
+/* width */
+.txt-do::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+.txt-do::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+.txt-do::-webkit-scrollbar-thumb {
+    background: rgb(91, 89, 214); 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+.txt-do::-webkit-scrollbar-thumb:hover {
+    background: rgb(80, 78, 202); 
+}
